@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>CALCULATOR</title>
+</head>
+<body>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<div class = "calc">
+<h1><u>SIMPLE CALCULATOR</u></h1>
+<form action="MainServlet" method="get">
+
+<p>Enter First Number</p> 
+<input type="number" name="txtN1" ><br>
+<p>Enter Second Number</p> 
+<input type="number" name="txtN2" ><br> 
+<p>--> Select an Operation <-- </p>
+<input type="radio" name="opr" value="+">Addition <br>
+<input type="radio" name="opr" value="*">Multiplication <br>
+<input type="radio" name="opr" value="/">Division <br>
+<input type="radio" name="opr" value="-">Subtraction<br>
+ <br> <input type="reset">
+<input type="submit" value="Calculate" >
+
+</form>
+</div>
+</body>
+</html>
